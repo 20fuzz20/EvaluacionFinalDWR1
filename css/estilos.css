@@ -60,7 +60,6 @@ figure{
 .imgizq, .imgder{
     width: 50%;
 }
-
 .imgder figure, .imgizq figure{
     transition: transform 1s;
 }
@@ -68,8 +67,18 @@ figure{
     transform: rotate(10deg);
     box-shadow: 2px 2px 2px #82c3a6;
 }
-
 .imgder img:hover{
     transform: translate(20px,-5px);
     box-shadow: 2px 2px 2px #82c3a6;
+}
+footer{
+    background-color: #c6d5c5;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contacto, .terminos, .redes, .derechos{
+    width: 25%;
+    padding: 20px;            
 }
