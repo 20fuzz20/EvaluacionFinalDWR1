@@ -8,42 +8,46 @@
     <title>Comenzando con la Fotografía</title>
   </head>
   <body>
-    <header >
-        <h1>Comenzando con la Fotografía</h1>
-        <div id="menu">
-        <a href="paisajes.html">Paisajes</a>
-        <a href="retratos.html">Retratos</a>
-        </div>
-    </header>
-    <div id="contenido">
+    <div class="contenido">  
+        <header >
+            <div class="menu">
+                <h1>Comenzando con la Fotografía</h1>
+                <a href="index.html" style="text-decoration:none;">Inicio</a>
+                <a href="paisajes.html">Paisajes</a>
+                <a href="retratos.html">Retratos</a>
+            </div>
+        </header>
         <section>
-            <article id="imgcentral">
-                <img src="" alt="" title="">
-            </article>
-            <article id="imgizq">
-                <img src="" alt="" title="">
-            </article>
-            <article id="imgder">
-                <img src="" alt="" title="">
-            </article>
+            <figure class="imgcentral">
+                <img src="img/central.jpg" alt="Imagen Central" title="Central">
+            </figure>
+            <section class="medio">
+                <figure class="imgizq">
+                    <a href="paisajes.html"><img src="img/paisaje.jpg" alt="Imagen Paisaje" title="Paisaje"></a>
+                    <figcaption>Paisajes</figcaption>
+                </figure>
+                <figure class="imgder">
+                    <a href="retratos.html"><img src="img/retrato.jpg" alt="Imagen Retrato" title="Retrato"></a>
+                    <figcaption>Retratos</figcaption>
+                </figure>
+            </section>
         </section>
         <footer>
-            <section>
-            <article id="contacto">
+            <div class="contacto">
                 <h1>Contacto</h1>
                 <p>
                     Email: faus_2.0@hotmail.com</br>
                     Dirección: Quito - Ecuador - OE1l Num.OE1-366 y Ayapamba</br>
                     Teléfon: 005930983887338                
                 </p>
-            </article>
-            <article id="terminos">
+            </div>
+            <div class="terminos">
                 <h1>Términos</h1>
                 <p>
                     Conoce nuestros términos y condiciones                
                 </p>
-            </article>
-            <article id="redes">
+            </div>
+            <div class="redes">
                 <h1>Redes Sociales</h1>
                 <p>
                     <svg width="50px" height="50px" viewBox="0 0 50 50">
@@ -63,14 +67,12 @@
                     </svg>
                     <a href="https://www.instagram.com/20fuzz20/">Instagram</a>
                 </p>
-            </article>
-            </article>
-            <article id="derechos">
+            </div>
+            <div class="derechos">
                 <svg width="100px" height="100px" viewBox="0 0 100 100">
                     <image width="100px" height="100px" xlink:href="img/copyright.svg"></image>
                 </svg>
-            </article>
-        </section>
+            </div>
         </footer>
     </div>       
   </body>

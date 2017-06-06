@@ -1,15 +1,75 @@
-@font-face {
+*{
+    margin: 0 auto 0 auto;
+    align-items: center;
+    text-align: center;
+}
+@font-face{
   font-family: 'Dancing Script';
   src: url('Dancing Script.otf');
 }
-body {
-    font-family: 'Dancing Script';
+body{
+    font-family: 'Dancing Script', cursive;
     background: #02010a;
     color: rgb(255, 255, 255);
     font-style: inherit; 
 }
-a{
+figcaption, footer, footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+figure{
+    max-width: 100%;
+    height: auto;
+}
+.contenido{
+    width: 900px;
+    margin: 1% auto;
+}
+.contenido img{
+    box-shadow: 2px 2px 2px #02010a;
+}
+.menu{
+    width:100%;
+    background: #5b7989;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+.menu h1{
+    text-shadow: 2px 2px 1px #02010a;
+    text-align: left;
+}
+.menu a{
     color: rgb(255, 255, 255);
     font-style: inherit;
-    text-decoration: none;
+    text-align: right;
+}
+.imgcentral{
+    width: 100%;
+    background-color: #82c3a6;
+    padding: 10px;
+}
+.medio{
+    width: 100%;
+    background-color: #d5c75f;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.imgizq, .imgder{
+    width: 50%;
+}
+
+.imgder figure, .imgizq figure{
+    transition: transform 1s;
+}
+.imgizq img:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 2px #82c3a6;
+}
+
+.imgder img:hover{
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px 2px #82c3a6;
 }
