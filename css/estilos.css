@@ -29,7 +29,6 @@ figure{
     box-shadow: 2px 2px 2px #02010a;
 }
 .menu{
-    width:100%;
     background: #5b7989;
     border-radius: 10px 10px 0 0;
     display: flex;
@@ -45,12 +44,10 @@ figure{
     text-align: right;
 }
 .imgcentral{
-    width: 100%;
     background-color: #82c3a6;
     padding: 10px;
 }
 .medio{
-    width: 100%;
     background-color: #d5c75f;
     text-align: center;
     padding: 10px;
@@ -72,7 +69,6 @@ figure{
     box-shadow: 2px 2px 2px #82c3a6;
 }
 footer{
-    width: 100%;
     background-color: #c6d5c5;
     border-radius: 0 0 10px 10px;
     display: flex;
@@ -82,7 +78,6 @@ footer{
     width: 25%;            
 }
 .galeria{
-    width: 100%;
     background-color: #d5c75f;
     padding: 10px;
     display: flex;
