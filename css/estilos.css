@@ -36,6 +36,7 @@ figure{
     display: flex;          /*posicionar el titulo*/
     flex-flow: row wrap;    /* y el listado a la misma*/  
     min-height: 90px;       /* altura*/  
+    word-spacing: 15px;
 }
 .menu h1{
     text-shadow: 2px 2px 1px #02010a;
@@ -116,7 +117,7 @@ footer{
     .contenido{
         width: 100%;
         text-align: center;
-        margin: 1% auto 1% auto;
+        margin: 1% auto;
     }
     .menu h1{
         width: 100%;
