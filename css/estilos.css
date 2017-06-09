@@ -108,3 +108,37 @@ footer{
         margin-top:0%;
     }
 }
+@media screen and (max-width: 900px){/*móviles*/
+    *{
+        max-width: 900px;
+        margin: 0 auto 0 auto;
+    }
+    .contenido{
+        width: 100%;
+        text-align: center;
+    }
+    .menu h1{
+        width: 100%;
+        text-align: center;
+    }
+    .menu a{
+        width: 100%;;
+        height: 100%;
+        text-align: center;
+    }
+    .imgcentral img{
+        width: 80%;
+    }
+    .imgizq, .imgder{
+        width: 100%;
+        text-align: center;
+    } 
+    footer{
+        width: 100%;
+        display: flex;
+    }
+    .contacto, .terminos, .redes, .derechos{
+        width: 100%;
+        padding: 10px;
+    }
+}
