@@ -116,15 +116,15 @@ footer{
     .contenido{
         width: 100%;
         text-align: center;
+        margin: 1% auto 1% auto;
     }
     .menu h1{
         width: 100%;
         text-align: center;
     }
     .menu a{
-        width: 100%;;
-        height: 100%;
         text-align: center;
+        display: inline;
     }
     .imgcentral img{
         width: 80%;
@@ -140,5 +140,14 @@ footer{
     .contacto, .terminos, .redes, .derechos{
         width: 100%;
         padding: 10px;
+    }
+    .galeria{
+        display: flex;
+        text-align: center;
+    }
+    .galeria1, .galeria2{
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
     }
 }
