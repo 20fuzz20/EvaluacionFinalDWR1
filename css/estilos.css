@@ -119,6 +119,9 @@ footer{
         text-align: center;
         margin: 1% auto;
     }
+    .contenido figure{
+        width: 100%;
+    }
     .menu h1{
         width: 100%;
         text-align: center;
